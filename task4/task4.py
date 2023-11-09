@@ -23,7 +23,7 @@ def main():
     import os
 
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    file = current_directory + input()
+    file = current_directory + '\\' + input()
 
     print(step_for_similar_arrays(file))
 
